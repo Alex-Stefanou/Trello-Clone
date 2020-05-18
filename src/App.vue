@@ -1,17 +1,25 @@
 <template>
     <div id="app">
-        Hello World
+        <Navbar/>
+        <div>
+            <Toolbar/>
+            <Workspace/>
+        </div>
     </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './views/Navbar.vue'
+import Toolbar from './views/Toolbar.vue'
+import Workspace from './views/Workspace.vue'
 
 export default {
     name: 'App',
-//   components: {
-//     HelloWorld
-//   }
+  components: {
+    Navbar,
+    Toolbar,
+    Workspace
+  }
 }
 </script>
 
@@ -21,7 +29,7 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+    background-color: #0079bf;
+    color: #ffffff;
 }
 </style>

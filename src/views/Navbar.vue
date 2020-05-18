@@ -1,11 +1,12 @@
 <template>
-  <div>
-  </div>
+    <div>
+        Navbar goes here
+    </div>
 </template>
 
 <script>
 export default {
-    name: 'HelloWorld'
+    name: 'Narbar'
 }
 </script>
 
