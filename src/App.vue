@@ -38,4 +38,8 @@ html {
     color: #ffffff;
     text-align: center;
 }
+
+.button {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
 </style>
