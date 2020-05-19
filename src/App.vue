@@ -25,7 +25,7 @@ export default {
 
 <style>
 html {
-    overflow: auto !important;
+    overflow: hidden !important;
 }
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
