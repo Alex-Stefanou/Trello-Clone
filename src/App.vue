@@ -41,5 +41,10 @@ html {
 
 .button {
     background-color: rgba(255, 255, 255, 0.3) !important;
+    margin: 0.2rem 0 0.2rem 0.2rem;
+}
+.input {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    margin: 0.2rem 0 0.2rem 0.2rem;
 }
 </style>
